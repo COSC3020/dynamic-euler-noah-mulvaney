@@ -18,3 +18,5 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+My implementation uses a single loop across the values 1 to n. Within the loop, the program does a constant amount of work to multiply `fact` by i, update its value, divide 1 by `fact`, and add it to `sum`. This results in a time complexity of $\Theta(n)$.
