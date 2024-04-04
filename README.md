@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/3aNDMX3O)
 # Dynamic Programming Euler's Number
 
 The mathematical constant $e$ (Euler's number) is defined as follows:
@@ -17,3 +18,5 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+My implementation uses a single loop across the values 1 to n. Within the loop, the program does a constant amount of work to multiply `fact` by i, update its value, divide 1 by `fact`, and add it to `sum`. This results in a time complexity of $\Theta(n)$.
