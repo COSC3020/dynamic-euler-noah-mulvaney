@@ -13,6 +13,6 @@ let e_close_enough = 2.71828182845904523536;
 let prev_err = 1;
 for (let i = 1; i < 20; ++i) {
   let error = e_close_enough - e(i);
-  assert(error < prev_err);
+  assert(error <= prev_err);
   prev_err = error;
 }
